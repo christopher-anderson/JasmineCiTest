@@ -11,17 +11,20 @@
     <script type="text/javascript" src="node_modules/jasmine-core/lib/jasmine-core/boot.js"></script>
     <script type="text/javascript" src="Jasmine2-teamcityreporter.js"></script>
 
-    <script>
-        var TeamcityReporter = jasmineRequire.TeamcityReporter();
-        window.teamcityReporter = new TeamcityReporter();
-        jasmine.getEnv().addReporter(window.teamcityReporter);
-    </script>
+
 
     <!-- include source files here... -->
     <script type="text/javascript" src="true.js"></script>
 
     <!-- include spec files here... -->
     <script type="text/javascript" src="tests/trueSpec.js"></script>
+
+
+    <script>
+        var TeamcityReporter = jasmineRequire.TeamcityReporter();
+        window.teamcityReporter = new TeamcityReporter();
+        jasmine.getEnv().addReporter(window.teamcityReporter);
+    </script>
 
 </head>
 
