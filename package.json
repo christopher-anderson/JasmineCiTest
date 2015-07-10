@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "devDependencies": {
     "karma": "^0.12.37",
+    "karma-cli": "^0.1.0",
     "karma-teamcity-reporter": "^0.2.0",
     "phantomjs": "^1.9.17"
   }
