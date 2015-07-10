@@ -3,6 +3,6 @@
  */
 describe('hello', function(){
  it('is a function that should return true', function(){
-     expect(hello()).toBe(True);
+     expect(hello()).toBe(true);
  })
 });
